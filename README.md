@@ -1,1 +1,1 @@
-# KaveoriTelegramBot
+# Informatics_Tasks
