@@ -1,5 +1,8 @@
 # Informatics_Tasks
-'''
+### Code
+
+Frome main.py
+```markdown
 def main():
     put_markdown("## Решение задачек по информатики ##")
     put_markdown(" <a href =\"https://github.com/DaniilSemizhonov/Informatics_Tasks\">Исходный код проекта</a>")
@@ -54,4 +57,4 @@ def main():
         n = 2 ** result
         #print(int(n) + "цветов")
         put_markdown(int(n) + "цветов")
-'''
+```
