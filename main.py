@@ -1,4 +1,3 @@
-
 from pywebio import start_server
 from pywebio.input import *
 from pywebio.output import *
@@ -6,6 +5,7 @@ from pywebio.output import *
 
 def main():
     put_markdown("## Решение задачек по информатики ##")
+    put_markdown(" <a href =\"https://github.com/DaniilSemizhonov/Informatics_Tasks\">Исходный код проекта</a>")
     task_type = select("Какую задачу хочешь решить", ['Расчитать обьём видеопамяти',
     'Узнать размер файла изображения', 'Узнать максимально возможное число цветов в изображении'])
     if task_type == 'Расчитать обьём видеопамяти':
