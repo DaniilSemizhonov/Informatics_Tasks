@@ -1,9 +1,7 @@
 import tornado.ioloop
 import tornado.web
-from pywebio import start_server
 from pywebio.input import *
 from pywebio.output import *
-import tornado.ioloop
 import tornado.web
 from pywebio.platform.tornado import webio_handler
 

@@ -1,8 +1,9 @@
-# Informatics_Tasks
-### Code
+from pywebio import start_server
+from pywebio.input import *
+from pywebio.output import *
 
-Frome main.py
-```markdown
+
+
 def main():
     put_markdown("## Решение задачек по информатики ##")
     put_markdown(" <a href =\"https://github.com/DaniilSemizhonov/Informatics_Tasks\">Исходный код проекта</a>")
@@ -57,4 +58,6 @@ def main():
         n = 2 ** result
         #print(int(n) + "цветов")
         put_markdown(int(n) + "цветов")
-```
+
+if __name__ == '__main__':
+    start_server(main, debug=False, port=8080)
